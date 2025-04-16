@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#9F9F9F">
+
+    <ImageView
+        android:id="@+id/logoIv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="App Logo" />
+
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ievadiet NickName" />
+
+    <Button
+        android:id="@+id/pvpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PvP Režīms"
+        android:backgroundTint="#00A0FF"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/pvcBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PvC Režīms"
+        android:backgroundTint="#00A0FF"
+        android:textSize="25dp"/>
+</LinearLayout>
